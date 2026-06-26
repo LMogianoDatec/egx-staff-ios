@@ -1,0 +1,4 @@
+#include "Base.xcconfig"
+
+// El `$()` vacío evita que xcconfig lea `//` como inicio de comentario.
+API_BASE_URL = https:/$()/dev-smt-atlbqiwvnq-tl.a.run.app

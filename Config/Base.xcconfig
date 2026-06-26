@@ -1,0 +1,6 @@
+// Base.xcconfig — ajustes compartidos por todas las configuraciones.
+//
+// Info.plist parcial: Xcode lo mergea con el generado (GENERATE_INFOPLIST_FILE=YES)
+// y expande $(API_BASE_URL) en la clave `APIBaseURL`, que la app lee en runtime
+// (ver AppConfig.swift).
+INFOPLIST_FILE = $(SRCROOT)/Config/Info.plist
